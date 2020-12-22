@@ -1,0 +1,34 @@
+<style>
+    .card-body{
+        background-color: hsl(267, 39%, 58%);
+        color: black;
+    }
+    .card{
+        text-align: center;
+    }
+    .center-column{
+        width:600px;
+		margin: 20px auto;
+		padding:20px;
+		background-color: #fff;
+		border-radius: 3px;
+		box-shadow: 6px 2px 30px 0px rgba(0,0,0,0.75);
+    }
+</style>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<div class="center-column">
+    <div class="card">
+        <div class="card-body">
+          <h5 class="card-title mt-4">Update the task</h5>
+          <div class="d-flex">
+            <form action="" method="POST">
+                {% csrf_token %}
+                {{form}}
+                <button type="submit" class="btn btn-warning ml-3">Update Task</button>
+          </div>
+        </form>
+         </div>
+        </div>
+      </div>
+</div>
