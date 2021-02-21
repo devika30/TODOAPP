@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'u105-1=7#cgjd0(nbfz7ie8l(c4ly5atd))pb@w=0s2mq&v5n9'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://todoappdja.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
